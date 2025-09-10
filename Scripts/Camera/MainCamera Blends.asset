@@ -1,0 +1,359 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36baaa8bdcb9d8b49b9199833965d2c3, type: 3}
+  m_Name: MainCamera Blends
+  m_EditorClassIdentifier: 
+  m_CustomBlends:
+  - m_From: MainCamera
+    m_To: RotateRopeCamera
+    m_Blend:
+      m_Style: 7
+      m_Time: 0.3
+      m_CustomCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 2.943396
+          outSlope: 2.943396
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0.041666668
+        - serializedVersion: 3
+          time: 0.055814803
+          value: 0.43136707
+          inSlope: 3.4365098
+          outSlope: 3.4365098
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.55209017
+          outWeight: 0.09119752
+        - serializedVersion: 3
+          time: 0.28227845
+          value: 0.90485257
+          inSlope: 0.49142352
+          outSlope: 0.49142352
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.5072881
+          outWeight: 0.21626987
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+  - m_From: MainCamera
+    m_To: RopeStartCamera
+    m_Blend:
+      m_Style: 7
+      m_Time: 2
+      m_CustomCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 3.2760265
+          outSlope: 3.2760265
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0.0375
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+  - m_From: RopeStartCamera
+    m_To: RopeEnterCamera
+    m_Blend:
+      m_Style: 7
+      m_Time: 0.2
+      m_CustomCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 2
+          outSlope: 2
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+  - m_From: RopeEnterCamera
+    m_To: MainCamera
+    m_Blend:
+      m_Style: 7
+      m_Time: 0.7
+      m_CustomCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 2
+          outSlope: 2
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+  - m_From: '**ANY CAMERA**'
+    m_To: MainCamera
+    m_Blend:
+      m_Style: 1
+      m_Time: 2
+      m_CustomCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 2.943396
+          outSlope: 2.943396
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0.041666668
+        - serializedVersion: 3
+          time: 0.055814803
+          value: 0.43136707
+          inSlope: 3.4365098
+          outSlope: 3.4365098
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.55209017
+          outWeight: 0.09119752
+        - serializedVersion: 3
+          time: 0.28227845
+          value: 0.90485257
+          inSlope: 0.49142352
+          outSlope: 0.49142352
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.5072881
+          outWeight: 0.21626987
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+  - m_From: MainCamera
+    m_To: RightCurveCamera
+    m_Blend:
+      m_Style: 7
+      m_Time: 0.6
+      m_CustomCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 2
+          outSlope: 2
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+  - m_From: RightCurveCamera
+    m_To: MainCamera
+    m_Blend:
+      m_Style: 7
+      m_Time: 1
+      m_CustomCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1.1074651
+          outSlope: 1.1074651
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 1
+        - serializedVersion: 3
+          time: 0.1958139
+          value: 0.7259995
+          inSlope: 0.89229643
+          outSlope: 0.89229643
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 1
+          outWeight: 0.15272729
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0.1331854
+          outSlope: 0.1331854
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.37776536
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+  - m_From: MainCamera
+    m_To: LeftCurveCamera
+    m_Blend:
+      m_Style: 7
+      m_Time: 0.6
+      m_CustomCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+  - m_From: LeftCurveCamera
+    m_To: MainCamera
+    m_Blend:
+      m_Style: 7
+      m_Time: 1
+      m_CustomCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1.1074651
+          outSlope: 1.1074651
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 1
+        - serializedVersion: 3
+          time: 0.1958139
+          value: 0.7259995
+          inSlope: 0.89229643
+          outSlope: 0.89229643
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 1
+          outWeight: 0.15272729
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0.1331854
+          outSlope: 0.1331854
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.37776536
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+  - m_From: MainCamera
+    m_To: EndingCamera
+    m_Blend:
+      m_Style: 7
+      m_Time: 4
+      m_CustomCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 2
+          outSlope: 2
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0

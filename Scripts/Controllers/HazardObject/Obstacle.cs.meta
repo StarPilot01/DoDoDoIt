@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 243c6408b0e73da4493e3ee3eba9a52f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _breakEffect: {fileID: 7631789818217902735, guid: 3408a438f5fe43a43afa3fac3e8943ef,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
